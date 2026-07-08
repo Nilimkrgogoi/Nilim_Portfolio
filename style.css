@@ -18,7 +18,6 @@
     background:#07111f;
     color:white;
     overflow-x:hidden;
-    padding-top:70px;
     
     }
     
@@ -49,25 +48,26 @@
     
     }
     
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-nav{
-    margin-left: auto;
-}
-
-#menuBtn{
-    display: block;
-    margin-left: auto;
-    font-size: 30px;
-}
-
+    header{
+    
+    position:fixed;
+    width:100%;
+    top:0;
+    padding:20px 8%;
+    backdrop-filter:blur(20px);
+    background:rgba(255,255,255,.05);
+    border-bottom:1px solid rgba(255,255,255,.08);
+    
+    }
+    
+    nav{
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    }
+    
     .logo{
     
     font-size:32px;
@@ -1437,61 +1437,67 @@ flex-wrap:wrap;
     
    /* Mobile Navigation */
 
-@media (max-width: 900px){
-
-    header{
-        padding: 0 15px;
-        height: 70px;
-    }
+@media (max-width: 900px) {
 
     #menuBtn{
-        display: block;
-        font-size: 30px;
-        cursor: pointer;
-        z-index: 1001;
+        display:block;
+        font-size:28px;
+        cursor:pointer;
     }
 
     nav{
-        position: static;
+        position:relative;
     }
 
     #menu{
-        position: fixed;
-        top: 70px;
-        right: -100%;
-        width: 250px;
-        height: calc(100vh - 70px);
 
-        background: rgba(7,17,31,.98);
-        backdrop-filter: blur(20px);
+        position:absolute;
+        top:75px;
+        right:-300px;
 
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        width:230px;
 
-        padding: 25px;
+        background:rgba(7,17,31,.98);
 
-        transition: right .35s ease;
+        backdrop-filter:blur(20px);
 
-        z-index: 999;
+        border-radius:15px;
+
+        display:flex;
+        flex-direction:column;
+
+        padding:20px;
+
+        transition:0.4s ease;
+
+        z-index:1000;
+
     }
 
     #menu.show{
-        right: 0;
+
+        right:20px;
+
     }
 
     #menu li{
-        width:100%;
+
         margin:15px 0;
+
     }
 
     #menu li a{
+
         display:block;
-        width:100%;
+
+        color:white;
+
         font-size:18px;
-        color:#fff;
+
     }
+
 }
+
 /* ======================================================
    CLEAN RESPONSIVE OVERRIDES
    Place at the END of your stylesheet
