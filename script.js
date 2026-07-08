@@ -5,9 +5,9 @@
 // ---------- Typing Effect ----------
 const words = [
     "Python Developer",
+    "Full Stack Developer",
     "Data Analyst",
-    "Web Developer",
-    "Freelancer"
+    "Open to Freelance Work"
   ];
   
   let wordIndex = 0;
