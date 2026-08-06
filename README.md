@@ -125,24 +125,22 @@ https://nilimkrgogoi.github.io/Nilim_Portfolio/
 
 ---
 
-# 📈 GitHub Statistics
+## 📊 GitHub Statistics
 
 <p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=nilimkrgogoi&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=nilimkrgoi&theme=tokyonight&hide_border=true"/>
-
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nilimkrgogoi&theme=tokyonight" width="100%">
 </p>
 
 <p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nilimkrgogoi&layout=compact&theme=tokyonight&hide_border=true"/>
-
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Nilimkrgogoi&theme=tokyonight" width="48%">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Nilimkrgogoi&theme=tokyonight&utcOffset=5.5" width="48%">
 </p>
 
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Nilimkrgogoi&theme=tokyonight" width="48%">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nilimkrgogoi&theme=tokyonight" width="48%">
+</p>
 ---
-
 # 📊 GitHub Activity Graph
 
 [![Nilim's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=nilimkrgogoi&theme=tokyo-night)](https://github.com/nilimkrgogoi)
