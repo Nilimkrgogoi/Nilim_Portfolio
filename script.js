@@ -42,9 +42,9 @@ const words = [
 
     "Full Stack Developer",
     "Python Developer",
-    "Data Analyst",
+    "Networking",
+    "Cyber Security",
     "Freelancer"
-
 ];
 
 let wordIndex = 0;
